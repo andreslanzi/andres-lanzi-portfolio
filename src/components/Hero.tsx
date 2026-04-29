@@ -8,6 +8,7 @@ import { pick } from '@/i18n';
 export function Hero() {
   const { t, i18n } = useTranslation();
   const role = pick(profile.role, i18n.language);
+  const focus = pick(profile.focus, i18n.language);
 
   return (
     <section
@@ -45,16 +46,23 @@ export function Hero() {
           >
             {profile.name}
             <span className="block text-fg-subtle">/</span>
-            <span className="block bg-gradient-to-r from-accent via-accent to-accent-dim bg-clip-text text-transparent">
-              {role.split('(')[0].trim()}
+            <span className="block bg-gradient-to-r from-accent via-accent to-accent-dim bg-clip-text pb-2 leading-[1.05] text-transparent">
+              {role}
             </span>
           </motion.h1>
 
           <motion.p
             variants={fadeUp}
-            className="caret-blink max-w-2xl font-mono text-sm text-fg-muted sm:text-base"
+            className="-mt-2 font-display text-2xl font-semibold leading-tight text-fg-muted sm:text-3xl md:text-4xl"
           >
-            {role}
+            <span className="text-accent">/</span> {focus}
+          </motion.p>
+
+          <motion.p
+            variants={fadeUp}
+            className="caret-blink max-w-2xl font-mono text-sm text-fg-subtle sm:text-base"
+          >
+            {role} · {focus}
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-2 flex flex-wrap items-center gap-3">

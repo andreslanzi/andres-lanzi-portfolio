@@ -30,8 +30,12 @@ export const profile = {
   name: 'Andres Lanzi',
   initials: 'AL',
   role: {
-    en: 'Full-stack Engineer (Frontend-focused)',
-    es: 'Full-stack Engineer (Frontend-focused)',
+    en: 'Software Engineer',
+    es: 'Software Engineer',
+  },
+  focus: {
+    en: 'Frontend focus',
+    es: 'Foco en Frontend',
   },
   location: 'Buenos Aires, Argentina',
   email: 'aandreslanzi@gmail.com',
