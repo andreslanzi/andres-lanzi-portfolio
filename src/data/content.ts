@@ -10,6 +10,7 @@ export type Project = {
   role: Localized;
   status?: 'in-progress';
   image: string;
+  imageFit?: 'cover' | 'contain';
   tagline: Localized;
   description: Localized;
   bullets: Localized<string[]>;
@@ -158,6 +159,36 @@ export const projects: Project[] = [
     },
     stack: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'],
     links: { demo: 'https://meticulate.ai/', repo: null },
+  },
+  {
+    name: 'Platform Finder AR',
+    role: { en: 'Owner', es: 'Owner' },
+    image: '/projects/platform-finder.png',
+    imageFit: 'contain',
+    tagline: {
+      en: 'Streaming Availability for Argentina',
+      es: 'Disponibilidad de streaming en Argentina',
+    },
+    description: {
+      en: 'A web app that tells you which streaming services available in Argentina (Netflix, Prime Video, Disney+, HBO Max, etc.) carry a specific movie or TV show — so you stop hopping between apps to find what to watch.',
+      es: 'Una webapp que te dice en qué servicios de streaming disponibles en Argentina (Netflix, Prime Video, Disney+, HBO Max, etc.) podés ver una película o serie — para dejar de saltar entre apps buscando dónde mirar.',
+    },
+    bullets: {
+      en: [
+        'Built a search-driven UI to query titles and surface live streaming providers for the AR region',
+        'Integrated the Streaming Availability API (RapidAPI) with Axios and typed all responses end-to-end with TypeScript',
+        'Designed a responsive interface with Tailwind CSS, lazy-loaded posters, and loading states for slow networks',
+        'Owned the project end-to-end — idea, UX, implementation and deploy on Netlify',
+      ],
+      es: [
+        'Construí una UI con búsqueda para consultar títulos y mostrar los servicios de streaming disponibles en AR en tiempo real',
+        'Integré la Streaming Availability API (RapidAPI) con Axios y tipé todas las responses end-to-end con TypeScript',
+        'Diseñé una interfaz responsive con Tailwind CSS, posters con lazy-load y loading states para conexiones lentas',
+        'Owner del proyecto end-to-end — idea, UX, implementación y deploy en Netlify',
+      ],
+    },
+    stack: ['React', 'TypeScript', 'Tailwind CSS', 'Axios', 'Netlify'],
+    links: { demo: 'https://platform-finder.netlify.app/', repo: null },
   },
 ];
 

@@ -17,7 +17,7 @@ export function Projects() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3"
+          className="mt-12 grid items-start gap-5 sm:grid-cols-2"
         >
           {projects.map((p) => (
             <ProjectCard key={p.name} project={p} />
