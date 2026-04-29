@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "values": "Principios"
+  },
+  "hero": {
+    "available": "Disponible para nuevas oportunidades",
+    "viewProjects": "Ver proyectos",
+    "getInTouch": "Contactarme",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Construyo productos con obsesión por el frontend.",
+    "locationLabel": "Ubicación",
+    "emailLabel": "Email",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn"
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Herramientas con las que construyo."
+  },
+  "projects": {
+    "eyebrow": "Trabajo seleccionado",
+    "title": "Proyectos en los que trabajé.",
+    "inProgress": "En progreso",
+    "viewLive": "Demo",
+    "viewCode": "Código"
+  },
+  "experience": {
+    "eyebrow": "Experiencia",
+    "title": "Donde construí cosas.",
+    "present": "Actualidad"
+  },
+  "values": {
+    "eyebrow": "Principios",
+    "title": "Qué me importa."
+  },
+  "footer": {
+    "tagline": "Diseñado y desarrollado por Andres Lanzi.",
+    "rights": "Todos los derechos reservados."
+  },
+  "lang": {
+    "switch": "Cambiar idioma"
+  }
+}
