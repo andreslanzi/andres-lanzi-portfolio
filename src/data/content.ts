@@ -196,7 +196,7 @@ export const experience: Experience[] = [
   {
     company: 'Xometry',
     role: { en: 'Software Engineer', es: 'Software Engineer' },
-    period: { en: 'March 2022 — March 2026', es: 'Marzo 2022 — Marzo 2026' },
+    period: { en: 'March 2022 — April 2026', es: 'Marzo 2022 — Abril 2026' },
     mode: { en: 'Remote', es: 'Remoto' },
     summary: {
       en: 'Led the development of scalable, high-impact frontend features using React and TypeScript, improving core marketplace workflows and reducing friction across key user experiences.',
