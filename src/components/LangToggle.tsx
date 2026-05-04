@@ -21,7 +21,7 @@ export function LangToggle() {
       <motion.span
         layout
         transition={{ type: 'spring', stiffness: 500, damping: 32 }}
-        className="absolute top-1 h-7 w-8 rounded-full bg-accent shadow-[0_0_12px_rgba(57,255,20,0.5)]"
+        className="absolute top-1 h-7 w-8 rounded-full bg-accent shadow-[0_0_12px_rgba(59,130,246,0.5)]"
         style={{ left: current === 'es' ? 4 : 36 }}
       />
       <span

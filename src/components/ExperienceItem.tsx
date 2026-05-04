@@ -22,7 +22,7 @@ export function ExperienceItem({ item, index }: Props) {
     <motion.div variants={fadeUp} className="relative pl-8 sm:pl-12">
       <span className="absolute left-0 top-2 flex h-3 w-3 items-center justify-center sm:left-1">
         <span className="absolute h-3 w-3 animate-ping rounded-full bg-accent/50" />
-        <span className="relative h-2.5 w-2.5 rounded-full bg-accent shadow-[0_0_12px_rgba(57,255,20,0.7)]" />
+        <span className="relative h-2.5 w-2.5 rounded-full bg-accent shadow-[0_0_12px_rgba(59,130,246,0.7)]" />
       </span>
 
       <div className="glow-on-hover overflow-hidden rounded-2xl border border-border bg-bg-elev">

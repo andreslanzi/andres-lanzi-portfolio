@@ -26,7 +26,7 @@ export function Skills() {
               className="glow-on-hover rounded-2xl border border-border bg-bg-elev p-6"
             >
               <div className="flex items-center gap-3">
-                <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_10px_rgba(57,255,20,0.7)]" />
+                <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_10px_rgba(59,130,246,0.7)]" />
                 <h3 className="font-display text-base font-semibold text-fg">
                   {group.category}
                 </h3>

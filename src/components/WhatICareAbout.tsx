@@ -37,7 +37,7 @@ export function WhatICareAbout() {
                 variants={fadeUp}
                 className="glow-on-hover group flex items-center gap-5 rounded-2xl border border-border bg-bg-elev p-6"
               >
-                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-border-strong bg-bg text-accent transition-all group-hover:border-accent group-hover:shadow-[0_0_20px_rgba(57,255,20,0.35)]">
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-border-strong bg-bg text-accent transition-all group-hover:border-accent group-hover:shadow-[0_0_20px_rgba(59,130,246,0.35)]">
                   <Icon size={20} />
                 </span>
                 <p className="font-display text-lg font-semibold text-fg sm:text-xl">

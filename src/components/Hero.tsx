@@ -68,7 +68,7 @@ export function Hero() {
           <motion.div variants={fadeUp} className="mt-2 flex flex-wrap items-center gap-3">
             <a
               href="#projects"
-              className="group inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 font-mono text-xs font-semibold uppercase tracking-wider text-bg transition-all hover:bg-accent-dim hover:shadow-[0_0_30px_rgba(57,255,20,0.4)]"
+              className="group inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 font-mono text-xs font-semibold uppercase tracking-wider text-bg transition-all hover:bg-accent-dim hover:shadow-[0_0_30px_rgba(59,130,246,0.4)]"
             >
               {t('hero.viewProjects')}
               <ArrowDown size={14} className="transition-transform group-hover:translate-y-0.5" />
