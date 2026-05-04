@@ -269,6 +269,28 @@ export const experience: Experience[] = [
   },
 ];
 
+export type Education = {
+  institution: string;
+  degree: Localized;
+};
+
+export const education: Education[] = [
+  {
+    institution: 'Universidad Argentina de la Empresa',
+    degree: {
+      en: "Bachelor's Degree in International Trade",
+      es: 'Licenciatura en Comercio Internacional',
+    },
+  },
+  {
+    institution: 'Colegio San Cirano',
+    degree: {
+      en: 'High School Diploma in Modern Languages',
+      es: 'Bachillerato con Orientación en Lenguas Modernas',
+    },
+  },
+];
+
 export const values: Array<{ title: Localized; iconKey: 'sparkles' | 'gauge' | 'rocket' | 'zap' }> = [
   {
     iconKey: 'sparkles',

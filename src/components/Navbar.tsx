@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { LangToggle } from './LangToggle';
 import { profile } from '@/data/content';
 
-const sections = ['about', 'skills', 'projects', 'experience'] as const;
+const sections = ['about', 'skills', 'projects', 'experience', 'education'] as const;
 
 export function Navbar() {
   const { t } = useTranslation();

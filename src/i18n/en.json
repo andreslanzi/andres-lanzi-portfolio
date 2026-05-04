@@ -4,6 +4,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "experience": "Experience",
+    "education": "Education",
     "values": "Principles"
   },
   "hero": {
@@ -35,6 +36,10 @@
     "eyebrow": "Experience",
     "title": "Where I've built things.",
     "present": "Present"
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "Academic background."
   },
   "values": {
     "eyebrow": "Principles",
