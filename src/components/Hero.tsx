@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { ArrowDown, ArrowUpRight } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Download } from 'lucide-react';
 import { profile } from '@/data/content';
 import { fadeUp, staggerContainer } from '@/hooks/useScrollReveal';
 import { pick } from '@/i18n';
@@ -79,6 +79,14 @@ export function Hero() {
             >
               {t('hero.getInTouch')}
               <ArrowUpRight size={14} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </a>
+            <a
+              href="/cv-andres-lanzi.pdf"
+              download="Andres-Lanzi-CV.pdf"
+              className="group inline-flex items-center gap-2 rounded-full border border-border-strong bg-bg-elev px-5 py-3 font-mono text-xs font-semibold uppercase tracking-wider text-fg transition-all hover:border-accent hover:text-accent"
+            >
+              {t('hero.downloadCv')}
+              <Download size={14} className="transition-transform group-hover:translate-y-0.5" />
             </a>
           </motion.div>
 
